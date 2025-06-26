@@ -1,50 +1,49 @@
-# Welcome to your Expo app 👋
+# 🌦️ React Native Weather App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A beautiful and responsive weather app built with **React Native**, **Expo**, **NativeWind**, and **OpenWeather API**.  
+It shows current weather data for a searched city and will support 7-day forecasts, themes, and persistent storage.
 
-## Get started
+## 📸 Preview
 
-1. Install dependencies
+<p align="center">
+  <img src="./assets/images/Screenshot 2025-06-26 181247 Warm.png" alt="Screenshot 1" width="45%" style="margin-right: 100px;" />
+</p>
+---
 
-   ```bash
-   npm install
-   ```
+## 🔧 Features
 
-2. Start the app
+- 🌍 City search using OpenWeather's Geocoding API  
+- 🌡️ Current weather info (temperature, humidity, wind, etc.)  
+- 💅 Styled using NativeWind (Tailwind CSS for React Native)  
+- 🌓 Light & dark theme support (coming soon)  
+- 💾 Persistent city using AsyncStorage  
+- 📊 Animated circular progress for humidity  
+- ⚡ Fast and optimized for Expo (works on Android, iOS & Web)
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## 🛠️ Tech Stack
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- [Expo](https://expo.dev/)
+- [React Native](https://reactnative.dev/)
+- [NativeWind](https://www.nativewind.dev/)
+- [OpenWeather API](https://openweathermap.org/api)
+- [AsyncStorage](https://react-native-async-storage.github.io/async-storage/)
+- [react-native-circular-progress](https://github.com/bartgryszko/react-native-circular-progress)
+- [Heroicons](https://github.com/tailwindlabs/heroicons) via `react-native-heroicons`
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## Addional Image 
 
-When you're ready, run:
+<img src="./assets/images/Screenshot 2025-06-26 181228 Cold.png" alt="Screenshot 2" width="45%" />
+
+---
+
+## 📦 Setup Instructions
+
+1. Clone the repo:
 
 ```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+git clone https://github.com/YOUR_USERNAME/react-native-weather-app.git
+cd react-native-weather-app
